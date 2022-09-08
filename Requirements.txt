@@ -1,0 +1,14 @@
+numpy
+pandas
+seaborn
+matplotlib
+warnings
+os
+datetime
+date
+scipy
+stats
+sklearn
+KMeans
+pickle
+streamlit
