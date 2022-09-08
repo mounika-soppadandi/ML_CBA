@@ -1,14 +1,14 @@
 
 
 # importing necessary libraries
-import pickle
+import joblib
 import streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn
 
 #load the model
-classifier = pickle.load(open('cluster_CDA.pkl','rb'))
+classifier = joblib.load('cluster_CDA1.pkl')
 
 
 
